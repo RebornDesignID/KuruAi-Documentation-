@@ -108,12 +108,11 @@ KuruAI/
 ├── api/             # Endpoint API untuk Chat & User
 ├── manifest.json    # Konfigurasi PWA
 └── sw.js            # Service Worker untuk Offline Mode
+```
 <div align="center">
 <p>Dibuat dengan ❤️ oleh <b>Riel Akuonza</b></p>
 <p><i>© 2026 KuruAi. Seluruh hak cipta dilindungi.</i></p>
 </div>
-```
-
 
 ### Perubahan yang saya lakukan:
 

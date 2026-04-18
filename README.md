@@ -1,195 +1,124 @@
 # KuruAi Dokumentasi Publik
 
 <div align="center">
-  <img src="https://kuruai.gt.tc/assets/kurumi.png" width="100" height="100" style="border-radius:16px" alt="KuruAi Logo">
-  <h3>Platform AI Chat Berbahasa Indonesia</h3>
-  <p>Chat cerdas · Generasi gambar · Roleplay kreatif · Subscription tiers</p>
+  <img src="https://kuruai.gt.tc/assets/kurumi.png" width="120" height="120" style="border-radius:20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" alt="KuruAi Logo">
+  <h3>🚀 Platform AI Chat Berbahasa Indonesia</h3>
+  <p><i>Chat Cerdas · Generasi Gambar · Roleplay Kreatif · PWA Ready</i></p>
 
-  [![Website](https://img.shields.io/badge/Website-kuruai.gt.tc-7C3AED?style=flat-square)](https://kuruai.gt.tc)
-  [![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=flat-square&logo=php)](https://php.net)
-  [![MySQL](https://img.shields.io/badge/MySQL-5.7+-4479A1?style=flat-square&logo=mysql)](https://mysql.com)
+  <a href="https://kuruai.gt.tc">
+    <img src="https://img.shields.io/badge/Website-kuruai.gt.tc-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
+  </a>
+  <a href="mailto:owner.rillku@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Business-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://teer.id/riel_akuonza">
+    <img src="https://img.shields.io/badge/Support-Trakteer-FF5E5B?style=for-the-badge&logo=trakteer&logoColor=white" alt="Trakteer">
+  </a>
+
+  <br>
+
+  [![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=flat-square&logo=php&logoColor=white)](https://php.net)
+  [![MySQL](https://img.shields.io/badge/MySQL-5.7+-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://mysql.com)
   [![PWA](https://img.shields.io/badge/PWA-Ready-5A0FC8?style=flat-square)](https://web.dev/progressive-web-apps/)
+  [![License](https://img.shields.io/badge/License-Proprietary-orange?style=flat-square)](https://kuruai.gt.tc)
 </div>
 
 ---
 
-## 🌐 Live Website  
-👉 https://kuruai.gt.tc  
+## 📖 Tentang KuruAi
+
+**KuruAi** adalah platform asisten AI berbasis web yang dirancang khusus untuk pengguna Indonesia. Dibangun dengan PHP murni (*Native*) tanpa framework untuk performa yang optimal, KuruAi menghadirkan pengalaman interaksi AI yang natural melalui persona **Kurumi Tokisaki** yang elegan, adaptif, dan responsif.
+
+* **🌐 Website:** [https://kuruai.gt.tc](https://kuruai.gt.tc)
+* **👨‍💻 Developer:** [Riel Akuonza](https://lynk.id/rielakuonza)
+* **🎯 Status:** v2.0.0 (Production)
+* **🇮🇩 Bahasa:** Full Bahasa Indonesia
 
 ---
 
-## 📖 Daftar Isi
+## ✨ Fitur Unggulan
 
-- [Tentang KuruAi](#tentang-kuruai)
-- [Fitur](#fitur)
-- [Teknologi](#teknologi)
-- [Halaman & Fitur](#halaman--fitur)
-- [Subscription Tiers](#subscription-tiers)
-- [API Endpoint](#api-endpoint)
-- [Struktur Folder](#struktur-folder)
-- [Dukungan & Kolaborasi](#dukungan--kolaborasi)
-- [Changelog](#changelog)
+### 🤖 AI Chat & Roleplay
+- Interaksi natural dengan karakter Kurumi Tokisaki.
+- Mendukung coding, matematika, analisis data, hingga roleplay kreatif.
+- **Multi-Sesi:** Riwayat chat tersimpan rapi per sesi.
+- **Auto-Fallback:** Peralihan model AI otomatis jika terjadi gangguan pada server utama.
 
----
+### 🎨 AI Image Generation
+- Integrasi **Pollinations.ai** untuk pembuatan gambar dari teks.
+- Berbagai pilihan style (Flux Realism, Flux, dll).
+- Generate gambar langsung di dalam jendela chat.
 
-## Tentang KuruAi
+### 💳 Ekosistem Pembayaran & Akun
+- **Manajemen Akun:** Login Google OAuth 2.0 & OTP Email.
+- **Payment Gateway:** Integrasi **Midtrans Core API** (QRIS, VA, E-Wallet).
+- **VIP Customization:** 10 pilihan warna border profil eksklusif untuk member VIP.
 
-**KuruAi** adalah platform asisten AI berbasis web yang dirancang khusus untuk pengguna Indonesia.  
-Dibangun tanpa framework, fokus pada performa, efisiensi, dan pengalaman chat yang terasa hidup.
-
-Karakter utama terinspirasi dari **Kurumi Tokisaki** — elegan, adaptif, dan interaktif.
-
-- **Versi:** 2.0.0  
-- **Bahasa utama:** Indonesia 🇮🇩  
-
-👤 **Developer:**  
-[Riel Akuonza](https://linktr.ee/rielakuonza)
+### 📱 Pengalaman Pengguna (UX)
+- **PWA Ready:** Instal di Android/iOS layaknya aplikasi native.
+- **Web Push Notification:** Pemberitahuan real-time untuk inbox dan promo.
+- **Dark/Light Mode:** Antarmuka yang nyaman di mata kapan saja.
 
 ---
 
-## Fitur
+## 🛠️ Stack Teknologi
 
-### 🤖 AI Chat
-- Chat natural bahasa Indonesia
-- Support roleplay, coding, matematika, analisis
-- Multi-session chat (riwayat tersimpan)
-- Auto fallback model AI
-
-### 🎨 Generasi Gambar
-- Text-to-image (Pollinations.ai)
-- Support berbagai style
-- Generate langsung di chat
-
-### 👤 Manajemen Akun
-- Login email + OTP
-- Google OAuth 2.0
-- Upload avatar (ImgBB)
-- Custom VIP border
-
-### 💳 Pembayaran
-- Midtrans Core API
-- QRIS, E-Wallet, Virtual Account
-- Auto aktivasi + webhook real-time
-
-### 📱 PWA
-- Install seperti aplikasi
-- Offline support
-- Push notification
-- Caching asset
-
-### 🔔 Notifikasi
-- Web Push Notification
-- Inbox internal
-- Real-time badge & toast
+| Komponen | Teknologi |
+| :--- | :--- |
+| **Backend** | PHP 8.1+ (Pure/Native) |
+| **Database** | MySQL 5.7+ (PDO) |
+| **Frontend** | Vanilla JS, CSS Variables, Tailwind-like styling |
+| **AI Engine** | Groq API (LLaMA 3.1) & Pollinations.ai |
+| **Payment** | Midtrans Core API |
+| **Email** | Brevo SMTP |
+| **Push Notif** | Web Push API + VAPID |
 
 ---
 
-## Teknologi
+## 💎 Subscription Tiers
 
-| Layer | Teknologi |
-|-------|-----------|
-| Backend | PHP 8.1+ (No Framework) |
-| Database | MySQL 5.7+ (PDO) |
-| Frontend | Vanilla JS + CSS |
-| AI Chat | Groq API (LLaMA 3.1) |
-| AI Gambar | Pollinations.ai |
-| Payment | Midtrans |
-| Email | Brevo SMTP |
-| Auth | Google OAuth 2.0 |
-| Hosting | InfinityFree |
+| Fitur | Free | Premium | VIP |
+| :--- | :--- | :--- | :--- |
+| **Harga** | Gratis | Rp 12.000 | Rp 35.000 |
+| **Durasi** | Selamanya | 30 Hari | 90 Hari |
+| **Limit Chat** | 60 Pesan/Hari | 120 Pesan/Hari | **Tanpa Batas** |
+| **Limit Gambar** | 5 Gambar/Hari | 20 Gambar/Hari | **Tanpa Batas** |
+| **Badge** | - | 💎 Premium | 👑 VIP |
+| **AI Priority** | Normal | Tinggi | Prioritas Utama |
 
 ---
 
-## Halaman & Fitur
+## 📧 Kontak & Dukungan
 
-| Halaman | URL | Deskripsi |
-|---------|-----|-----------|
-| Landing | `/` | Halaman utama |
-| Login | `/login` | Login user |
-| Register | `/register` | Daftar akun |
-| Chat | `/talk/UID` | Chat AI |
-| Pricing | `/pricing` | Paket langganan |
-| Checkout | `/checkout` | Pembayaran |
-| Profile | `/profile` | Profil user |
-| Settings | `/settings` | Pengaturan akun |
-| Shop | `/shop` | Toko digital |
+Kami sangat terbuka untuk kerjasama, sponsor, maupun laporan bug untuk pengembangan KuruAi ke arah yang lebih baik.
+
+* **Kerjasama Bisnis & Sponsor:** [owner.rillku@gmail.com](mailto:owner.rillku@gmail.com)
+* **Donasi Pengembangan:** [Trakteer (riel_akuonza)](https://teer.id/riel_akuonza)
+* **Socials:** [Lynk.id Riel Akuonza](https://lynk.id/rielakuonza)
 
 ---
 
-## Subscription Tiers
+## 📂 Struktur Proyek Singkat
 
-| | Free | Premium | VIP |
-|-|------|---------|-----|
-| Harga | Gratis | Rp 12.000 | Rp 35.000 |
-| Durasi | Selamanya | 30 hari | 90 hari |
-| Chat | 60/hari | 120/hari | Unlimited |
-| Gambar | 5/hari | 20/hari | Unlimited |
-| Badge | ✗ | 💎 | 👑 |
-| Prioritas | Normal | Tinggi | Maksimal |
-
----
-
-## API Endpoint
-
-Semua endpoint berada di `/api` dan menggunakan `POST`.
-
-Contoh fitur API:
-- Chat AI
-- Generate gambar
-- Manajemen sesi
-- Update profil
-- Inbox system
-
-📂 Detail lengkap: `docs/api/`
-
----
-
-## Struktur Folder
+```text
 KuruAI/
-├── assets/
-├── data/
-│ └── app/
-├── includes/
-├── manifest.json
-├── sw.js
-└── offline.html
-
-
----
-
-## 🤝 Dukungan & Kolaborasi
-
-KuruAi terbuka untuk kerja sama, sponsor, maupun pengembangan lebih lanjut.
-
-### 📩 Kontak Bisnis
-📧 owner.rillku@gmail.com  
-
-### 💖 Donasi (Support Development)
-👉 https://teer.id/riel_akuonza  
-
----
-
-## Changelog
-
-### v2.0.0 (April 2026)
-- Migrasi ke Midtrans
-- Redesign UI payment
-- PWA full support
-- Dark/Light mode
-- Struktur database baru
-
-### v1.5.0
-- Google OAuth
-- Multi-model AI
-- Push notification
-
-### v1.0.0
-- Initial release
-
----
-
+├── assets/          # Media, Ikon, & CSS
+├── data/            # Logika Backend (AI Handlers, Database)
+├── includes/        # Komponen UI (Header, Sidebar, Footer)
+├── api/             # Endpoint API untuk Chat & User
+├── manifest.json    # Konfigurasi PWA
+└── sw.js            # Service Worker untuk Offline Mode
 <div align="center">
-  <p><strong>KuruAi</strong> — Build simple, think big.</p>
-  <p>Dibuat oleh <a href="https://linktr.ee/rielakuonza">Riel Akuonza</a></p>
-  <p><em>© 2026 All rights reserved</em></p>
+<p>Dibuat dengan ❤️ oleh <b>Riel Akuonza</b></p>
+<p><i>© 2026 KuruAi. Seluruh hak cipta dilindungi.</i></p>
 </div>
+```
+
+
+### Perubahan yang saya lakukan:
+
+1.  **Badges:** Menambahkan badge untuk Website, Email, dan Trakteer di bagian atas agar terlihat profesional.
+2.  **Highlight Kontak:** Menambahkan section khusus **"Kontak & Dukungan"** agar sponsor atau donatur mudah menemukan informasi tersebut.
+3.  **Layouting:** Menggunakan tabel dan ikon (emojis) agar dokumentasi lebih mudah dibaca (scannable).
+4.  **CTA (Call to Action):** Memperjelas link website dan link donasi di bagian awal dan akhir.
+5.  **Visual:** Menambahkan bayangan (shadow) dan radius pada logo agar terlihat lebih estetis di halaman GitHub/Readme.

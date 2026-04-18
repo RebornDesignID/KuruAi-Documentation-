@@ -1,4 +1,4 @@
-# KuruAi — Dokumentasi Publik
+# KuruAi Dokumentasi Publik
 
 <div align="center">
   <img src="https://kuruai.gt.tc/assets/kurumi.png" width="100" height="100" style="border-radius:16px" alt="KuruAi Logo">

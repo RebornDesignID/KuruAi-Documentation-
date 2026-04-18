@@ -28,7 +28,7 @@
 
 ## Tentang KuruAi
 
-KuruAi adalah platform asisten AI berbasis web untuk pengguna Indonesia. Dibangun dengan PHP murni tanpa framework, KuruAi menghadirkan pengalaman chat AI yang natural dengan karakter **Kurumi Tokisaki** — elegan, adaptif, dan menyenangkan.
+KuruAi adalah platform asisten AI berbasis web untuk pengguna Indonesia. Dibangun dengan PHP murni tanpa framework, KuruAi menghadirkan pengalaman chat AI yang natural dengan karakter **Kurumi Tokisaki** elegan, adaptif, dan menyenangkan.
 
 **Dibuat oleh:** [Riel Akuonza](https://lynk.id/rielakuonza)
 **Versi saat ini:** 2.0.0
@@ -41,7 +41,7 @@ KuruAi adalah platform asisten AI berbasis web untuk pengguna Indonesia. Dibangu
 ### 🤖 AI Chat
 - Chat natural berbahasa Indonesia dengan karakter Kurumi
 - Mendukung roleplay, coding, matematika, dan analisis umum
-- Multi-sesi — riwayat chat tersimpan per sesi
+- Multi-sesi riwayat chat tersimpan per sesi
 - Fallback otomatis antar model AI jika satu gagal
 
 ### 🎨 Generasi Gambar

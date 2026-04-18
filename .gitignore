@@ -1,0 +1,8 @@
+# KuruAi Public Docs — .gitignore
+# Repo ini hanya dokumentasi, tidak ada file sensitif.
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
